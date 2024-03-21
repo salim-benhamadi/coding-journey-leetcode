@@ -1,0 +1,11 @@
+class Solution:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
+        merged = ""
+        i = 0
+        # Iterate through both words simultaneously until one of them is exhausted
+        while i < len(word1) and i < len(word2):
+            # Append characters alternately from word1 and word2 to the merged string
+            merged += word1[i] + word2[i]
+            i += 1
+        # Append any remaining characters from word1 and word2 to the merged string, the smaller word will add an empty string
+        return merged + word1[i:] + word2[i:]
