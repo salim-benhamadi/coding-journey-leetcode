@@ -1,6 +1,6 @@
 from types import List
 
-### 1. Brute Force Solution (Time Limit Exceeded)
+# 1. Brute Force Solution (Time Limit Exceeded)
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
@@ -15,7 +15,7 @@ class Solution:
 # Space complexity: O(1)
 
 
-### 2. Two Pointer Solution
+# 2. Two Pointer Solution
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
