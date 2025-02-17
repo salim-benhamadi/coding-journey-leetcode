@@ -1,7 +1,9 @@
 from typing import List
+
+# Method 1: Brute Force
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        # Method 1: Brute Force
+        
         max_profit = 0
         for i in range(len(prices)-1):
             tmp = max(prices[i+1:]) - prices[i]
@@ -9,10 +11,13 @@ class Solution:
                 max_profit = tmp
         return max_profit
 
-        # Time Complexity : O(n²)
-        # Space Complexity : O(1)
+# Time Complexity : O(n²)
+# Space Complexity : O(1)
 
-        # Method 2: Sliding Window
+
+# Method 2: Sliding Window
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
         min_price = float('inf')
         max_profit = 0
         
@@ -22,9 +27,9 @@ class Solution:
             max_profit = max(max_profit, current_profit)
         
         return max_profit
-        
-        # Time Complexity : O(n)
-        # Space Complexity : O(1)
+
+# Time Complexity : O(n)
+# Space Complexity : O(1)
             
 
         
