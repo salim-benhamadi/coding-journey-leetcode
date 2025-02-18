@@ -18,3 +18,7 @@ class Solution:
             running_product *= nums[i]
             
         return result
+    
+
+# Time complexity: O(n)
+# Space complexity: O(n) 
