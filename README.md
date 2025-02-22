@@ -29,6 +29,9 @@ I'm not a coding expert, just someone passionate about improving my problem-solv
 - Medium
 - Hard (working on these!)
 
+### 📝 To Do
+- Add recursive solution to 104. Maximum Depth of Binary Tree
+
 ### 🤝 Feedback Welcome
 If you see ways I can improve my solutions or have suggestions, feel free to open an issue or drop a comment!
 
