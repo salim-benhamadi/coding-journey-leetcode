@@ -18,3 +18,6 @@ class Solution:
             current_node = next_node
         
         return previous_node
+
+# Time complexity: O(n)
+# Space complexity: O(1) 
