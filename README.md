@@ -32,6 +32,7 @@ I'm not a coding expert, just someone passionate about improving my problem-solv
 ### 📝 To Do
 - Add recursive solution to 104. Maximum Depth of Binary Tree
 - Add a two pointer solution to 26. Remove Duplicates from Sorted Array
+- Solve 338. Counting Bits with O(n) time complexity solution 
 
 ### 🤝 Feedback Welcome
 If you see ways I can improve my solutions or have suggestions, feel free to open an issue or drop a comment!
