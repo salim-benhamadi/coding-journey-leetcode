@@ -1,5 +1,5 @@
 from typing import List
-
+ 
 # Sorting with hash map solution
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
